@@ -15,3 +15,5 @@ D. false. Checking types Number 2 !== String '2'
 E. false. true as Number is 1, 1 != 2
 F. true. Boolean(x) where x is positive Number will return true, true === true
 15. `===` checks types javscript type matches in addition to value matching/equality (`==` only checks value).
+17. [ 2, 4, 6 ], an array. modifyArray is called with [1, 2, 3] array and doSomething function as its callback function. In ModifyArray an new array is created have elements added to it 3 times determined by the lenght of the original array. On each iteration it takes the each element in the original array as use it as argument to doSomething which doubles the value. The results are pushed to new array and eventually returned.
+19. 1432
