@@ -9,4 +9,4 @@ declared within the `if` block so it can be printed
 6.  Technically there is no print or error since the error crashes execution before program control can reach line 13. But if you comment out lines 7 then you get ReferenceError since `const result` has block scope and line 13 is not in the block it is declared.
 7. 3 . As expected `var i` is function scope and it follows the loop so the console.log prints the last value the loop incremented (the length of the prices array) had after it terminated
 8. 150 . As expected `var discounted` is function scope and console.log follows the loop so it prints the last value the loop assigned to `var discounted` (the result of the last price 300 * 1 - 0.5 = 150).
-9. 
+9.
