@@ -23,4 +23,3 @@ declared within the `if` block so it can be printed
 10. 3 . As expected `const i` is block scope but the same as the entire function here. Console.log follows the loop so the console.log prints the constant value of the length of the array (3) which does not change.
 11. [50, 100, 150] an array of size 3 with discount applied to intially passed prices. With 0.5 passed as the discount, the values of the orignal array 
 [100, 200, 300] is just halfed in the loop and pushed to discounted array. Even though the `discounted` array is `const` that means the reference to tthe array is constant and adding values (ie: pushing discountedPrice) to the empty array is still allowed.
-12. 
